@@ -187,7 +187,7 @@ def draw_tree(relation_df, cid_hid, which_lang, tmpSentPath):
 
     #plt.savefig(tmpSentPath + '/' + folder_name +'_'+ which_lang +"_tree.png")
     plt.savefig( tmpSentPath + which_lang +"_tree.png")
-    plt.show()
+    #plt.show()
     
 
 def debug(expression):
